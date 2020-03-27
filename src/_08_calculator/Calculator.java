@@ -1,27 +1,16 @@
 package _08_calculator;
 
-
-import java.awt.Dimension;
-import java.awt.Graphics;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.image.BufferedImage;
-import java.util.Random;
-
-import javax.imageio.ImageIO;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
 
 public class Calculator implements ActionListener{
-	JFrame frame = new JFrame();
+	JFrame frame = new JFrame("basic 4 field calculator");
 	JTextField input1 = new JTextField();
 	JTextField input2 = new JTextField();
 	JButton button1 = new JButton();

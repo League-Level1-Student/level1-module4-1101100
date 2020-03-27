@@ -60,7 +60,7 @@ public class WhackAMole implements ActionListener {
 
 			}
 		
-		if (counter==10) {
+		if (counter==30) {
 			endGame(d, counter);
 		}
 	}
